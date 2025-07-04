@@ -44,8 +44,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <i class="bi-back"></i>
-                    <span>Topic</span>
+                    <span>Leasely</span>
                 </a>
 
                 <div class="d-lg-none ms-auto me-4">
@@ -102,21 +101,9 @@
                 <div class="row">
 
                     <div class="col-lg-8 col-12 mx-auto">
-                        <h1 class="text-white text-center">Discover. Learn. Enjoy</h1>
+                        <h1 class="text-white text-center">Paying rent. Simplified.</h1>
 
-                        <h6 class="text-center">platform for creatives around the world</h6>
-
-                        <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
-                            <div class="input-group input-group-lg">
-                                <span class="input-group-text bi-search" id="basic-addon1">
-                                    
-                                </span>
-
-                                <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Design, Code, Marketing, Finance ..." aria-label="Search">
-
-                                <button type="submit" class="form-control">Search</button>
-                            </div>
-                        </form>
+                        <h6 class="text-center">For both <u><b>Landlords</b></u> and <u><b>Tenants</b></u></h6>
                     </div>
 
                 </div>
@@ -124,73 +111,80 @@
         </section>
 
 
-        <section class="featured-section">
+        <section class="featured-section py-5">
             <div class="container">
-                <div class="row justify-content-center">
-
-                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                        <div class="custom-block bg-white shadow-lg">
-                            <a href="topics-detail.html">
-                                <div class="d-flex">
-                                    <div>
-                                        <h5 class="mb-2">Web Design</h5>
-
-                                        <p class="mb-0">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
-                                    </div>
-
-                                    <span class="badge bg-design rounded-pill ms-auto">14</span>
-                                </div>
-
-                                <img src="static/images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
-                            </a>
-                        </div>
+              <!-- bs-carousel -->
+              <div id="featuredCarousel" class="carousel slide" data-bs-ride="carousel"
+                   data-bs-interval="5000"><!-- 5 s per slide -->
+                
+                <div class="carousel-inner">
+          
+                  <!-- --- Slide #1 (active) --- -->
+                  <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                      <div class="custom-block bg-white shadow-lg">
+                        <a href="topics-detail.html" class="d-block p-4">
+                          <h5 class="mb-2">Pay how you want</h5>
+                          <p class="mb-3">Leasely allows you to pay rent how you want,
+                            whether it be through <b>credit card</b>, <b>bank transfer</b>, or other methods.</p>
+                          <img src="static/images/rent_credit_card.png"
+                               class="custom-block-image img-fluid d-block mx-auto" alt="">
+                        </a>
+                      </div>
                     </div>
-
-                    <div class="col-lg-6 col-12">
-                        <div class="custom-block custom-block-overlay">
-                            <div class="d-flex flex-column h-100">
-                                <img src="static/images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
-
-                                <div class="custom-block-overlay-text d-flex">
-                                    <div>
-                                        <h5 class="text-white mb-2">Finance</h5>
-
-                                        <p class="text-white">Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.</p>
-
-                                        <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
-                                    </div>
-
-                                    <span class="badge bg-finance rounded-pill ms-auto">25</span>
-                                </div>
-
-                                <div class="social-share d-flex">
-                                    <p class="text-white me-4">Share:</p>
-
-                                    <ul class="social-icon">
-                                        <li class="social-icon-item">
-                                            <a href="#" class="social-icon-link bi-twitter"></a>
-                                        </li>
-
-                                        <li class="social-icon-item">
-                                            <a href="#" class="social-icon-link bi-facebook"></a>
-                                        </li>
-
-                                        <li class="social-icon-item">
-                                            <a href="#" class="social-icon-link bi-pinterest"></a>
-                                        </li>
-                                    </ul>
-
-                                    <a href="#" class="custom-icon bi-bookmark ms-auto"></a>
-                                </div>
-
-                                <div class="section-overlay"></div>
-                            </div>
-                        </div>
+                  </div>
+          
+                  <!-- --- Slide #2 --- -->
+                  <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                      <div class="custom-block bg-white shadow-lg">
+                        <a href="topics-detail.html" class="d-block p-4">
+                          <h5 class="mb-2">Get notified when the rent is due.</h5>
+                          <p class="mb-3">Leasely sends <b>notifications</b> to both landlords and tenants
+                            when the rent is due, ensuring timely payments.</p>
+                          <img src="static/images/notifications.png"
+                               class="custom-block-image img-fluid d-block mx-auto" alt="">
+                        </a>
+                      </div>
                     </div>
-
+                  </div>
+          
+                  <!-- --- Slide #3 --- -->
+                  <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                      <div class="custom-block bg-white shadow-lg">
+                        <a href="topics-detail.html" class="d-block p-4">
+                          <h5 class="mb-2">Keep track of multiple tenants in once place.</h5>
+                          <p class="mb-3">Leasely provides ways for landlords to <b>manage multiple tenants</b>
+                            and their payments in one place.</p>
+                          <img src="static/images/dashboard.png"
+                               class="custom-block-image img-fluid d-block mx-auto" alt="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
                 </div>
+          
+                <button class="carousel-control-prev" type="button"
+                        data-bs-target="#featuredCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                        data-bs-target="#featuredCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+          
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" style="background-color: #000;"></button>
+                  <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: #000;"></button>
+                  <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: #000;"></button>
+                </div>
+              </div>
             </div>
-        </section>
+          </section>
 
 
         <section class="explore-section section-padding" id="section_2">
@@ -783,11 +777,19 @@
 
 
     <!-- JAVASCRIPT FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/click-scroll.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/click-scroll.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.sticky.js') }}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          new bootstrap.Carousel('#featuredCarousel', {
+            interval: 7000,   // auto-advance every 5 s
+            wrap: true        // loop back to the first slide
+          });
+        });
+      </script>
 
 </body>
 
