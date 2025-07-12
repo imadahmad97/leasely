@@ -1144,3 +1144,10 @@ blockquote {
   max-width: 920px !important;
   width: 100% !important;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 4rem; /* default ≈ 1.5rem                        */
+  height: 4rem;
+  background-size: 4rem 4rem; /* keep the SVG crisp               */
+}
